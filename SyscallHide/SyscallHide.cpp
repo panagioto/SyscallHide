@@ -104,8 +104,8 @@ LPWSTR GetSID()
 
 void Usage()
 {
-	wprintf(L"\n\r [>] Create hidden registry (Run) key:\n\r SyscallHide.exe create C:\\Windows\\Temp\\ost.exe\n\n");
-	wprintf(L"\r [>] Create hidden registry (Run) key with parameters:\n\r SyscallHide.exe create C:\\Windows\\Temp\\ost.exe arg1 arg2\n\n");
+	wprintf(L"\n\r [>] Create hidden registry (Run) key:\n\r SyscallHide.exe create C:\\Windows\\Temp\\backdoor.exe\n\n");
+	wprintf(L"\r [>] Create hidden registry (Run) key with parameters:\n\r SyscallHide.exe create C:\\Windows\\Temp\\backdoor.exe arg1 arg2\n\n");
 	wprintf(L"\r [>] Delete hidden registry (Run) key:\n\r SyscallHide.exe delete\n");
 }
 
